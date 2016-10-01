@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "files": [
+    "./main.tsx",
+    "./App.tsx",
+    "typings/globals/react/index.d.ts",
+    "typings/globals/react-dom/index.d.ts"
+  ],
+  "filesGlob": [
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "typings/**/*d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
